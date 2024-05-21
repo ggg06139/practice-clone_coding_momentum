@@ -11,7 +11,20 @@
 // 과거에 변수를 만들었을 때는 var을 사용했다.
 // 변수 생성 방법을 정리하면, default는 const를 쓰고, 필요할 때만 let을 쓰고, var은 쓰지 않는다.
 
+<<<<<<< HEAD
 const a = 5;
 
 console.log(5+a);
-console.log(5/2);
+console.log(5/2);console.log(5/2);
+=======
+// #2.4
+// true, false, null, undefined
+// null은 variable 내에 값이 없다는 것을 확실히 알려주기 위해서 null 이라는 값을 준 것이다.
+// undefined는 메모리를 차지하는 공간은 있는데, 값이 주어지지 않은 것이다.
+
+
+const amIFat = null;
+let something;
+
+console.log(something)
+>>>>>>> 6fed95c (Feat: "true, false, null, undefined t 사용 예시 작성")
